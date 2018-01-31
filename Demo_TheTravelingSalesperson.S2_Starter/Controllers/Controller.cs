@@ -96,6 +96,8 @@ namespace Demo_TheTravelingSalesperson
                 {
                     case MenuOption.None:
                         break;
+                    case MenuOption.SetupAccount:
+                        break;
                     case MenuOption.Travel:
                         Travel();
                         break;
@@ -113,6 +115,10 @@ namespace Demo_TheTravelingSalesperson
                         break;
                     case MenuOption.DisplayAccountInfo:
                         DisplayAccountInfo();
+                        break;
+                    case MenuOption.SaveAccountInfo:
+                        break;
+                    case MenuOption.LoadAccountInfo:
                         break;
                     case MenuOption.Exit:
                         _usingApplication = false;
